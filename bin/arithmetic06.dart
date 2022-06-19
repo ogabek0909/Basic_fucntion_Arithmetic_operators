@@ -4,9 +4,9 @@
 // Find the reverse of the number and  assign to variable called ‘answer’
 // return answer
 int func(number) {
-  return number - 9;
+  return number % 10 * 10 + number ~/ 10;
 }
 
 void main() {
-  print(func(17));
+  print(func(48));
 }
